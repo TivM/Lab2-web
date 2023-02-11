@@ -1,0 +1,195 @@
+/*@font-face {*/
+/*    font-family: ElMessiri;*/
+/*    font-weight: bold;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: ElMessiri;*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+/**{*/
+/*    font-family: ElMessiri, 'Comic Sans MS', fantasy;*/
+/*}*/
+
+body {
+    margin: auto;
+    background: #e6f4fd;
+    color: black;
+    bottom: auto;
+}
+
+header {
+    background: rgb(220,220,220);
+    color: black;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Saint-P{
+    position: absolute;
+    left: 600px;
+    font-size: 13px;
+    top: 600px;
+
+}
+
+.table_section{
+    position: absolute;
+    top: 550px;
+    left :350px;
+    width:1000px;
+}
+
+/*.table_section #cleaner{*/
+/*    position: relative;*/
+/*    margin: 20px;*/
+/*    padding-left: 350px;*/
+/*}*/
+
+/*.table_section #cleaner input {*/
+/*    position: relative;*/
+/*    color: whitesmoke;*/
+/*    background: rgba(0, 0, 0, 0.83);*/
+/*    width: 170px;*/
+/*    height: 40px;*/
+/*    right: 200px;*/
+/*    border-radius: 10px;*/
+/*}*/
+/*.table_section #cleaner #button_clean:hover{*/
+/*    color: blue;*/
+/*}*/
+
+.table_section #table {
+    position: relative;
+    top: 10px;
+    right: 140px;
+    width: 900px;
+    border: 1px solid black;
+}
+
+/*#table td, th {*/
+/*    padding: 3px;*/
+/*}*/
+
+svg {
+    position: absolute;
+    left: 300px;
+    top: 180px;
+}
+
+.section-lab .form {
+    position: absolute;
+    top: 150px;
+    left: 870px;
+    width: 500px;
+    height: 350px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    background: rgb(144, 144, 144);
+    border-radius: 20px 20px 20px 20px;
+}
+
+/*.section-lab .y_value {*/
+/*    margin: 5% 0 0;*/
+/*    position: relative;*/
+/*    top: 15px;*/
+/*    left: 130px;*/
+/*}*/
+
+/*.section-lab .y_value #Y_value {*/
+/*    width: 145px;*/
+/*}*/
+
+/*.section-lab #xTable {*/
+/*    margin: 5% 0 0;*/
+/*    position: relative;*/
+/*    top: 10px;*/
+/*    left: 130px;*/
+/*}*/
+
+/*.section-lab .x_value #x_value {*/
+/*    width: 143px;*/
+/*}*/
+
+/*.section-lab .r_value {*/
+/*    margin: 5% 0 0;*/
+/*    position: relative;*/
+/*    top: 10px;*/
+/*    left: 130px;*/
+/*}*/
+
+/*.section-lab .r_value #R_value {*/
+/*    width: 153px;*/
+
+/*}*/
+
+.section-lab .values{
+    margin: 5% 0 0;
+    position: relative;
+    left: 150px;
+    width: 300px;
+    font-size: 17px;
+}
+
+.section-lab .y_value{
+    margin-bottom: 1rem;
+}
+
+.section-lab .x_value{
+    margin-bottom: 1rem;
+}
+
+.section-lab .text-select-coordinate{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(240,240,240);
+}
+
+#xTable td{
+    /*padding: 2px 5px;*/
+    border: 1px solid #eee;
+    text-align: left;
+}
+#xTable input{
+    width: 60px;
+}
+
+
+
+.section-lab .client-button{
+    position: absolute;
+    left: 205px;
+    top: 270px;
+}
+
+.section-lab .client-button .client-button-submit, .client-button-clear {
+    background: lightgrey;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    position: relative;
+    top: 22px;
+}
+
+.section-lab .client-button-clear:hover{
+    color: green;
+}
+
+.section-lab .client-button-submit:hover{
+    color: green;
+}
+
+/*.section-lab .Error_text {*/
+/*    margin: 15px;*/
+/*    position: relative;*/
+/*    top: 13px;*/
+/*    text-align: center;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    color: red;*/
+/*    font-size: 20px;*/
+/*    margin: 4px;*/
+/*}*/

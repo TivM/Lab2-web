@@ -1,0 +1,54 @@
+@font-face {
+    font-family: ElMessiri;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ElMessiri;
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: ElMessiri, 'Comic Sans MS', fantasy;
+}
+
+body{
+    background: #e6f4fd;
+}
+
+.results{
+    background: white;
+    padding-bottom: 80px;
+    /*color: #4a90e2;*/
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-collapse: collapse;
+}
+
+.results td:not(.header){
+    text-align: center;
+    padding-right: 10px;
+}
+
+th{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 21px 25px 22px 25px;
+}
+
+.manageButtons button{
+    color: black;
+    background: lightgrey;
+    /*background: #4a90e2;*/
+    line-height: 40px;
+    border-width: 0;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.manageButtons form{
+    margin: 0px;
+}
